@@ -323,8 +323,6 @@ a {
   margin-left: 0 !important;
 }
 
-
-
 /* sidebar */
 
 #sidebar h1{
@@ -336,9 +334,16 @@ a {
   margin-top: 0.5in; 
 }
 
-#contact ul{
+#about{
   margin-top: 0.05in;
   padding-left: 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#contact ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0;
   font-family: "Source Code Pro";
   font-weight: 400;
   line-height: 1.75;
@@ -347,6 +352,15 @@ a {
 #contact li > i{
   width: 9pt; /* for text alignment */
   text-align: right;
+}
+
+#languages{
+  line-height: 1.5;
+}
+
+#languages ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0;
 }
 
 #skills{
