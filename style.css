@@ -363,6 +363,15 @@ a {
   padding: 0;
 }
 
+#publications{
+  line-height: 1.5;
+}
+
+#publications ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0;
+}
+
 #skills{
   line-height: 1.5;
 }
